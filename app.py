@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 
 
 app = dash.Dash(
-    __name__, plugins=[dl.plugins.pages], external_stylesheets=[dbc.themes.BOOTSTRAP], url_base_pathname='/dev/'
+    __name__, plugins=[dl.plugins.pages], external_stylesheets=[dbc.themes.BOOTSTRAP]
 )
 app.server.secret_key = os.environ.get('secret_key', 'secret')
 server =app.server
