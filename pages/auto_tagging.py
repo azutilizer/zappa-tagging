@@ -46,7 +46,7 @@ def entname(name):
 def entbox(children, color):
     return html.Mark(children, style={
         "background": color,
-        "padding": "0.45em 0.6em",
+        "padding": "0.2em 0.5em",
         "margin": "0 0.25em",
         "line-height": "1",
         "border-radius": "0.35em",
